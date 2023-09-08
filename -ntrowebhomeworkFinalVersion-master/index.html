@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animate_style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <title>Yemek Tarifleri</title>
+  </head>
+  <body>
+    <header>
+      <div class="">
+        <h1>Culturel Recipes</h1>
+      </div>
+    </header>
+
+    <nav>
+      <div style="display: flex; justify-content: center">
+        <ul>
+          <li><a href="#">Ana Sayfa</a></li>
+
+          <li><a href="/-ntrowebhomeworkFinalVersion-master/pages/contact.html">İletişim</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main >
+      <div class="category-buttons-container">
+        <div class="button-row">
+          <table>
+            <tr>
+              <td>
+                  <img 
+                  id="turkish" 
+                  src="images/countryflagimages/Flag_of_Turkey_Flat_Square-256x256.png"
+                  alt="Türk Mutfağı Bayrağı"
+                  width="256"
+                  height="256"
+                  style="border-radius: 50%; border: 3px solid black"
+                  class="category-button rotateInDownRight"
+                />
+              </td>
+              <td>
+                
+                  <img
+                    id="france"
+                    src="images/countryflagimages/Flag_of_France_Flat_Square-256x256.png"
+                    alt="Fransız Mutfağı Bayrağı"
+                    width="256"
+                    height="256"
+                    style="border-radius: 50%; border: 3px solid black"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr  style="text-align: center">
+              <td id="turkishButton">
+                <button 
+                  
+                  style=" 
+                    border: 4px solid rgb(255, 0, 0);
+                  "
+                  type="button"
+                  class="btn btn-error buttonMain "
+                  
+                >Türk Mutfağı</button>
+              </td>
+              <td id="franceButton">
+                <button 
+                  style="  border: 4px solid rgb(255, 0, 0);border-radius: 40px;"
+                  type="button"
+                  class="btn btn-primary buttonMain "
+                  
+                >Fransız Mutfağı</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="button-row">
+          <table>
+            <tr>
+              <td>
+                
+                  <img
+                
+                    id ="italy"
+                    src="images/countryflagimages/Flag_of_Italy_Flat_Square-256x256.png"
+                    alt="İtalyan Mutfağı Bayrağı"
+                    width="256"
+                    height="256"
+                    style="border-radius: 50%; border: 3px solid black; margin-right: 10px;"
+                  />
+                </a>
+              </td>
+              <td>
+                
+                  <img
+                
+                    id="mexico"
+                    src="images/countryflagimages/Flag_of_Mexico_Flat_Square-256x256.png"
+                    alt="Meksika Mutfağı Bayrağı"
+                    width="256"
+                    height="256"
+                    style="border-radius: 50%; border: 3px solid black"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr style="text-align: center">
+              <td id="italyButton">
+
+                <button 
+                  style="  border: 4px solid rgb(165, 159, 200);border-radius: 40px;"
+                  type="button"
+                  class="btn btn-primary buttonMain "
+                  
+                >İtalyan Mutfağı</button>
+
+              </td>
+              <td id="mexicoButton">
+
+                <button 
+                  style="  border: 4px solid #30c2dd; border-radius: 40px; background-color:black;"
+                  type="button"
+                  class="btn btn-primary buttonMain "
+                  
+                >Meksika Mutfağı</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Introduction To Web Programming HomeWork</p>
+      <p>Emir Görkem Makas</p>
+    </footer>
+
+    <script src="scriptsFile.js"></script>
+    
+  </body>
+</html>

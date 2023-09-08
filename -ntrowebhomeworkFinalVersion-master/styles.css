@@ -1,0 +1,260 @@
+/* Genel Stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+  margin: 20px;
+  padding: 20px;
+
+}
+
+/* Başlık Stili */
+header h1 {
+  text-align: center;
+}
+
+/* Navigasyon Stili */
+nav ul {
+  list-style: none;
+  padding: 0;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  border: 4px solid blue;
+  border-radius: 90px 100px;
+  padding: 10px
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Tarif Makalesi Stili */
+.recipe {
+  margin-bottom: 30px;
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe h2 {
+  margin-top: 10px;
+}
+
+.recipe p {
+  margin-top: 5px;
+}
+
+.recipe a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.buttonMain{
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin: auto;
+}
+
+/* Altbilgi Stili */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.category-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Sayfanın yüksekliğinin %80'ini alır */
+}
+
+.category-button {
+  display: block;
+  width: 256px;
+  height: 256px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 256px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 10px;
+}
+.recipes{
+  border: none;
+  background: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.flag {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  border: 4px solid blue;
+  border-radius: 90px 100px;
+  padding: 10px;
+}
+
+
+
+.ang {
+
+  text-align: center;
+  margin-top: 40px;
+}
+
+.gotorecipe {
+  text-decoration: none;
+  color: midnightblue;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+div a:hover{
+color: blue;
+cursor: pointer;
+background-color: black;
+}
+li a:hover{
+  color: blue;
+  cursor: pointer;
+  background-color: black;
+  }
+
+.abc{
+  background-image: url("/images/turkishfoodimages/meze.jpeg"); /* Replace with your image filename */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.foot{
+  width: 100%;
+  height: 600px;
+  background-color: antiquewhite;
+}
+
+.map{
+  width: 40%;
+  height: 500px;
+  border:1px solid darkred;
+  position:relative;
+
+}
+.recipe-nutrition {
+  margin-top: 80px;
+  font-family: dinot,sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase
+}
+.text-standard {
+  font-family: dinot,sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  line-height: 1.6
+}
+.nav-list {
+  font-family: dinot,sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.recipe-nutrition a:link,.recipe-nutrition a:visited {
+  border: 0;
+  color: #000;
+  transition: color .3s ease
+}
+
+.recipe-nutrition a:hover,.recipe-nutrition a:focus,.recipe-nutrition a:active {
+  color: #7f7f7f
+}
+
+@media(max-width: 1024px) {
+  .recipe-nutrition {
+      margin-top:40px
+  }
+}
+
+.recipe-nutrition dl {
+  margin-top: 20px
+}
+
+.recipe-nutrition dl dt,.recipe-nutrition dl dd {
+  border-bottom: 1px solid #d6d6d6;
+  min-height: 35px
+}
+
+.recipe-nutrition .nutritional-information {
+  float: left;
+  width: 100%;
+  margin: 2rem 0 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: none
+}
+.serve-container {
+  text-align: center; /* Container'ı ortala */
+  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+table {
+  margin: 0 auto; /* Tabloyu ortala */
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.image-container {
+  
+  text-align: center;
+  margin:auto;
+} 
